@@ -32,26 +32,3 @@ productManager.addProduct({
 	code: 'abc123',
 	stock: 10
 });
-
-console.error(productManager.getProducts());
-
-productManager.addProduct({
-	title: 'producto',
-	description: 'Este es un producto',
-	price: 150,
-	thumbnail: 'Sin imagen',
-	code: 'abc123',
-	stock: 25
-});
-
-console.log(productManager.getProductById(1));
-console.error(productManager.getProductById(3));
-
-productManager.addProduct({
-	title: 'producto',
-	description: 'Este es un producto',
-	price: 150,
-	thumbnail: 'Sin imagen',
-	code: 'abc',
-	stock: ''
-});
