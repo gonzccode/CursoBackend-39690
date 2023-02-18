@@ -1,0 +1,15 @@
+{
+  "name": "proyectofinal-01-entregable",
+  "version": "1.0.0",
+  "description": "primer entregable del proyecto final - curso backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "gonzalo canaza - gonzccode",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
